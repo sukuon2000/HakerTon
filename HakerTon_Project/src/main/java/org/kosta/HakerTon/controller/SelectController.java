@@ -41,6 +41,10 @@ public class SelectController {
 	public String selectStep7() {
 		return "attribute/select7";
 	}
+	@RequestMapping("result")
+	public String showresult() {
+		return "attribute/result";
+	}
 
 	
 }

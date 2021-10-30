@@ -65,7 +65,7 @@
 			<div class="row w3l-features-photo-7_top align-items-center mt-5">
 				<div
 					class="col-lg-6 w3l-features-photo-7_top-right mt-lg-0 mt-sm-5 mt-4">
-					<a href="${pageContext.request.contextPath}/select/step8"><img
+					<a href="${pageContext.request.contextPath}/select/result"><img
 						src="${pageContext.request.contextPath}/assets/images/청결.PNG"
 						class="img-responsive" style="height: 370px; width: 100%;" alt="" /></a>
 					<blockquote class="mb-0">
@@ -77,7 +77,7 @@
 				</div>
 				<div
 					class="col-lg-6 w3l-features-photo-7_top-right mt-lg-0 mt-sm-5 mt-4">
-					<a href="${pageContext.request.contextPath}/select/step8"><img
+					<a href="${pageContext.request.contextPath}/select/result"><img
 						src="${pageContext.request.contextPath}/assets/images/좌석.PNG"
 						class="img-responsive" style="height: 370px; width: 100%;" alt="" /></a>
 					<blockquote class="mb-0">
