@@ -1,114 +1,141 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!doctype html>
 <html lang="ko">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link
+	href="https://fonts.googleapis.com/css2?family=Gamja+Flower&
+								display=swap"
+	rel="stylesheet">
 <style>
-.imagesize{
-	height:380px !important;
+* {
+	font-family: 'Gamja Flower', cursive;
+}
+
+.imagesize {
+	height: 380px !important;
 }
 </style>
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Roast Stars - in coffee city</title>
-    <!-- google-fonts -->
-    <link href="//fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap"
-        rel="stylesheet">
-    <link href="//fonts.googleapis.com/css2?family=Sail&display=swap" rel="stylesheet">
-    <!-- //google-fonts -->
-    <!-- Template CSS Style link -->
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/style-liberty.css">
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Roast Stars - in coffee city</title>
+<!-- google-fonts -->
+<link
+	href="//fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap"
+	rel="stylesheet">
+<link href="//fonts.googleapis.com/css2?family=Sail&display=swap"
+	rel="stylesheet">
+<!-- //google-fonts -->
+<!-- Template CSS Style link -->
+<link rel="stylesheet"
+	href="${pageContext.request.contextPath}/assets/css/style-liberty.css">
 </head>
 
 <body>
-    <!--header-->
-    <header id="site-header" class="fixed-top">
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg stroke">
-                <h1>
-                    <a class="navbar-brand d-flex align-items-center" href="${pageContext.request.contextPath}../index">
-                        Roast Stars</a>
-                </h1>
-                <!-- if logo is image enable this
+	<!--header-->
+	<header id="site-header" class="fixed-top">
+		<div class="container-fluid">
+			<nav class="navbar navbar-expand-lg stroke">
+				<h1>
+					<a class="navbar-brand d-flex align-items-center"
+						href="${pageContext.request.contextPath}../index"> Roast Stars</a>
+				</h1>
+				<!-- if logo is image enable this
     <a class="navbar-brand" href="#index.html">
         <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
     </a> -->
 
-                <!-- toggle switch for light and dark theme -->
-                <div class="cont-ser-position">
-                    <nav class="navigation">
-                        <div class="theme-switch-wrapper">
-                            <label class="theme-switch" for="checkbox">
-                                <input type="checkbox" id="checkbox">
-                                <div class="mode-container">
-                                    <i class="gg-sun"></i>
-                                    <i class="gg-moon"></i>
-                                </div>
-                            </label>
-                        </div>
-                    </nav>
-                </div>
-                <!-- //toggle switch for light and dark theme -->
-            </nav>
-        </div>
-    </header>
-    <!--//header-->
+				<!-- toggle switch for light and dark theme -->
+				<div class="cont-ser-position">
+					<nav class="navigation">
+						<div class="theme-switch-wrapper">
+							<label class="theme-switch" for="checkbox"> <input
+								type="checkbox" id="checkbox">
+								<div class="mode-container">
+									<i class="gg-sun"></i> <i class="gg-moon"></i>
+								</div>
+							</label>
+						</div>
+					</nav>
+				</div>
+				<!-- //toggle switch for light and dark theme -->
+			</nav>
+		</div>
+	</header>
+	<!--//header-->
 
 
-    <!-- about section -->
-    <section class="w3l-features-photo-7 py-5">
-        <div class="container py-md-5 py-4">
-            <div class="waviy">
-                <span>더 마음에 드는 사진을 선택해 주세요!</span>
-            </div>
-            <div class="row w3l-features-photo-7_top align-items-center mt-5 ">
-                <div class="col-lg-6 w3l-features-photo-7_top-right mt-lg-0 mt-sm-5 mt-4 imagesize">
-                    <a href="${pageContext.request.contextPath}/select/step2"><img src="${pageContext.request.contextPath}/assets/images/뷰.jpeg" class="img-responsive" alt="" /></a>
-                	<blockquote class="mb-0">
-                            <p class="quote-main position-relative p-3" style="margin: auto; display: table;">
-                                <q>🌊가슴이 뻥 ~ 뷰 맛집🌊</blockquote>
-                </div>
-                <div class="col-lg-6 w3l-features-photo-7_top-right mt-lg-0 mt-sm-5 mt-4 imagesize">
-                     <a href="${pageContext.request.contextPath}/select/step2"><img src="${pageContext.request.contextPath}/assets/images/인테리어.jpeg" class="img-responsive" style="height: -webkit-fill-available;
-    width: 100%;"alt="" />
-    <blockquote class="mb-0">
-                            <p class="quote-main position-relative p-3" style="margin: auto; display: table;">
-                                <q>깔끔한 감성카페🥰🥰</q></p></blockquote></a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- //about section -->
+	<!-- about section -->
+	<section class="w3l-features-photo-7 py-5">
+		<div class="container py-md-5 py-4">
+			<div class="pyro">
+				<div class="before"></div>
+				<div class="after"></div>
+			</div>
+			<div class="waviy">
+				<span style="margin: auto;display: table;">더 마음에 드는 사진을 선택해 주세요💖</span>
+			</div>
+			<div class="row w3l-features-photo-7_top align-items-center mt-5 ">
+				<div
+					class="col-lg-6 w3l-features-photo-7_top-right mt-lg-0 mt-sm-5 mt-4 imagesize">
+					<a href="${pageContext.request.contextPath}/select/step2"><img
+						src="${pageContext.request.contextPath}/assets/images/뷰.jpeg"
+						class="img-responsive" alt="" /></a>
+					<blockquote class="mb-0">
+						<p class="quote-main position-relative p-3"
+							style="margin: auto; display: table;">
+							<q>🌊가슴이 뻥 ~ 뷰 맛집🌊
+					</blockquote>
+				</div>
+				<div
+					class="col-lg-6 w3l-features-photo-7_top-right mt-lg-0 mt-sm-5 mt-4 imagesize">
+					<a href="${pageContext.request.contextPath}/select/step2"><img
+						src="${pageContext.request.contextPath}/assets/images/인테리어.jpeg"
+						class="img-responsive"
+						style="height: -webkit-fill-available; width: 100%;" alt="" />
+						<blockquote class="mb-0">
+							<p class="quote-main position-relative p-3"
+								style="margin: auto; display: table;">
+								<q>깔끔한 감성카페🥰🥰</q>
+							</p>
+						</blockquote></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- //about section -->
 
-    <!-- footer -->
-    <section class="w3l-footer-29-main">
-        <div class="footer-29 py-5">
-            <div class="container py-lg-4">
-                <div class="row footer-top-29">
-                    <div class="col-12 footer-list-29">
-                        <h2>
-                            <a class="footer-logo" href="index.html">
-                                Roast Stars</a>
-                        </h2>
-                        <p class="sub-list-text mt-4">"당신이 잃어버린 빛나는 카페"<br>Roast Stars에서 찾아보세요!
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- //footer -->
+	<!-- footer -->
+	<section class="w3l-footer-29-main">
+		<div class="footer-29 py-5">
+			<div class="container py-lg-4">
+				<div class="row footer-top-29">
+					<div class="col-12 footer-list-29">
+						<h2>
+							<a class="footer-logo" href="index.html"> Roast Stars</a>
+						</h2>
+						<p class="sub-list-text mt-4">
+							"당신이 잃어버린 빛나는 카페"<br>Roast Stars에서 찾아보세요!
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- //footer -->
 
-    <!-- common jquery plugin -->
-    <script src="assets/js/jquery-3.3.1.min.js"></script>
-    <!-- //common jquery plugin -->
+	<!-- common jquery plugin -->
+	<script src="assets/js/jquery-3.3.1.min.js"></script>
+	<!-- //common jquery plugin -->
 
-    <!-- owl carousel -->
-    <script src="assets/js/owl.carousel.js"></script>
-    <!-- script for tesimonials carousel slider -->
-    <script>
+	<!-- owl carousel -->
+	<script src="assets/js/owl.carousel.js"></script>
+	<!-- script for tesimonials carousel slider -->
+	<script>
         $(document).ready(function () {
             $("#owl-demo2").owlCarousel({
                 loop: true,
@@ -133,15 +160,15 @@
             })
         })
     </script>
-    <!-- //script for tesimonials carousel slider -->
+	<!-- //script for tesimonials carousel slider -->
 
-    <!-- counter for stats -->
-    <script src="assets/js/counter.js"></script>
-    <!-- //counter for stats -->
+	<!-- counter for stats -->
+	<script src="assets/js/counter.js"></script>
+	<!-- //counter for stats -->
 
-    <!-- theme switch js (light and dark)-->
-    <script src="assets/js/theme-change.js"></script>
-    <script>
+	<!-- theme switch js (light and dark)-->
+	<script src="assets/js/theme-change.js"></script>
+	<script>
         function autoType(elementClass, typingSpeed) {
             var thhis = $(elementClass);
             thhis.css({
@@ -176,10 +203,10 @@
             autoType(".type-js", 200);
         });
     </script>
-    <!-- //theme switch js (light and dark)-->
+	<!-- //theme switch js (light and dark)-->
 
-    <!-- MENU-JS -->
-    <script>
+	<!-- MENU-JS -->
+	<script>
         $(window).on("scroll", function () {
             var scroll = $(window).scrollTop();
 
@@ -205,22 +232,22 @@
             });
         });
     </script>
-    <!-- //MENU-JS -->
+	<!-- //MENU-JS -->
 
-    <!-- disable body scroll which navbar is in active -->
-    <script>
+	<!-- disable body scroll which navbar is in active -->
+	<script>
         $(function () {
             $('.navbar-toggler').click(function () {
                 $('body').toggleClass('noscroll');
             })
         });
     </script>
-    <!-- //disable body scroll which navbar is in active -->
+	<!-- //disable body scroll which navbar is in active -->
 
-    <!--bootstrap-->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- //bootstrap-->
-    <!-- //Js scripts -->
+	<!--bootstrap-->
+	<script src="assets/js/bootstrap.min.js"></script>
+	<!-- //bootstrap-->
+	<!-- //Js scripts -->
 </body>
 
 </html>

@@ -3,7 +3,20 @@
     <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!doctype html>
 <html lang="ko">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link
+	href="https://fonts.googleapis.com/css2?family=Gamja+Flower&
+								display=swap"
+	rel="stylesheet">
+<style>
+* {
+	font-family: 'Gamja Flower', cursive;
+}
 
+.imagesize {
+	height: 380px !important;
+}
+</style>
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -56,9 +69,13 @@
     <!-- about section -->
     <section class="w3l-features-photo-7 py-5">
         <div class="container py-md-5 py-4">
+          <div class="pyro">
+                                <div class="before"></div>
+                                <div class="after"></div>
+                            </div>
             <div class="waviy">
-                <span>더 마음에 드는 사진을 선택해 주세요!<span>
-            </div>
+				<span style="margin: auto;display: table;">더 마음에 드는 사진을 선택해 주세요💖</span>
+			</div>
             <div class="row w3l-features-photo-7_top align-items-center mt-5">
                 <div class="col-lg-6 w3l-features-photo-7_top-right mt-lg-0 mt-sm-5 mt-4">
                     <a href="${pageContext.request.contextPath}/select/step6"><img src="${pageContext.request.contextPath}/assets/images/주차.jpg" class="img-responsive"style="height: 370px;
