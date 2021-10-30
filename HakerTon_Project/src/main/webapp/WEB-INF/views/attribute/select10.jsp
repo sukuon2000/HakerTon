@@ -61,10 +61,10 @@
             </div>
             <div class="row w3l-features-photo-7_top align-items-center mt-5">
                 <div class="col-lg-6 w3l-features-photo-7_top-right mt-lg-0 mt-sm-5 mt-4">
-                    <a href="${pageContext.request.contextPath}/select/step9"><img src="${pageContext.request.contextPath}/assets/images/blog1.jpg" class="img-responsive" alt="" /></a>
+                    <a href="${pageContext.request.contextPath}/select/result"><img src="${pageContext.request.contextPath}/assets/images/blog1.jpg" class="img-responsive" alt="" /></a>
                 </div>
                 <div class="col-lg-6 w3l-features-photo-7_top-right mt-lg-0 mt-sm-5 mt-4">
-                     <a href="${pageContext.request.contextPath}/select/step9"><img src="${pageContext.request.contextPath}/assets/images/blog2.jpg" class="img-responsive" alt="" /></a>
+                     <a href="${pageContext.request.contextPath}/select/result"><img src="${pageContext.request.contextPath}/assets/images/blog2.jpg" class="img-responsive" alt="" /></a>
                 </div>
             </div>
         </div>
