@@ -70,7 +70,7 @@
 						class="img-responsive" style="height: 370px; width: 100%;" alt="" /></a>
 					<blockquote class="mb-0">
                             <p class="quote-main position-relative p-3" style="margin: auto; display: table;">
-                                <q>무엇보다도 청결은 기본이지 !</q>
+                                <q>무엇보다도 청결 기본이지 🧹</q>
                             </p>
                    </blockquote>
 			
@@ -82,7 +82,7 @@
 						class="img-responsive" style="height: 370px; width: 100%;" alt="" /></a>
 					<blockquote class="mb-0">
                             <p class="quote-main position-relative p-3" style="margin: auto; display: table;">
-                                <q>넓은 좌석을 갖춘 카페</q></p></blockquote>
+                                <q>넓은 좌석을 갖춘 카페🤗</q></p></blockquote>
 				</div>
 			</div>
 		</div>

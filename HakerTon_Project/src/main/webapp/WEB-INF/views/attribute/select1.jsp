@@ -68,14 +68,14 @@
                     <a href="${pageContext.request.contextPath}/select/step2"><img src="${pageContext.request.contextPath}/assets/images/뷰.jpeg" class="img-responsive" alt="" /></a>
                 	<blockquote class="mb-0">
                             <p class="quote-main position-relative p-3" style="margin: auto; display: table;">
-                                <q>가슴이 뻥 ~ 뷰 맛집</q></p></blockquote>
+                                <q>🌊가슴이 뻥 ~ 뷰 맛집🌊</blockquote>
                 </div>
                 <div class="col-lg-6 w3l-features-photo-7_top-right mt-lg-0 mt-sm-5 mt-4 imagesize">
                      <a href="${pageContext.request.contextPath}/select/step2"><img src="${pageContext.request.contextPath}/assets/images/인테리어.jpeg" class="img-responsive" style="height: -webkit-fill-available;
     width: 100%;"alt="" />
     <blockquote class="mb-0">
                             <p class="quote-main position-relative p-3" style="margin: auto; display: table;">
-                                <q>깔끔한 감성카페</q></p></blockquote></a>
+                                <q>깔끔한 감성카페🥰🥰</q></p></blockquote></a>
                 </div>
             </div>
         </div>

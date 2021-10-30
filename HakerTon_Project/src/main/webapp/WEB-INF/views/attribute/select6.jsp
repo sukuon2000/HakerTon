@@ -65,14 +65,14 @@
     width: 100%;"alt="" /></a>
                 	<blockquote class="mb-0">
                             <p class="quote-main position-relative p-3" style="margin: auto; display: table;">
-                                <q>특별한 날엔 특별한 디저트</q></p></blockquote>
+                                <q>🥞특별한 날엔 특별한 디저트🥞</q></p></blockquote>
                 </div>
                 <div class="col-lg-6 w3l-features-photo-7_top-right mt-lg-0 mt-sm-5 mt-4">
                      <a href="${pageContext.request.contextPath}/select/step7"><img src="${pageContext.request.contextPath}/assets/images/가성비.jpg" class="img-responsive" style="height: 370px;
     width: 100%;"alt="" /></a>
                 	<blockquote class="mb-0">
                             <p class="quote-main position-relative p-3" style="margin: auto; display: table;">
-                                <q>이 구역의 가성비는 너다!</q></p></blockquote>
+                                <q>이 구역의 가성비는 너다!💰</q></p></blockquote>
                 </div>
             </div>
         </div>

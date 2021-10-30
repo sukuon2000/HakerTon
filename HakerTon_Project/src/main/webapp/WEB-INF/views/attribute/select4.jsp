@@ -65,14 +65,14 @@
     width: 100%;"class="img-responsive" alt="" /></a>
                 	<blockquote class="mb-0">
                             <p class="quote-main position-relative p-3" style="margin: auto; display: table;">
-                                <q>드로잉 음료로 눈과 입이 행복한 카페</q></p></blockquote>
+                                <q>🎨드로잉 음료로 눈과 입이 행복한 카페🎨</q></p></blockquote>
                 </div>
                 <div class="col-lg-6 w3l-features-photo-7_top-right mt-lg-0 mt-sm-5 mt-4">
                      <a href="${pageContext.request.contextPath}/select/step5"><img src="${pageContext.request.contextPath}/assets/images/대화.jpg" style="height: 370px;
     width: 100%;"class="img-responsive" alt="" /></a>
                 	<blockquote class="mb-0">
                             <p class="quote-main position-relative p-3" style="margin: auto; display: table;">
-                                <q>대화를 나누기 좋은 카페</q></p></blockquote>
+                                <q>대화를 나누기 좋은 카페💑</q></p></blockquote>
                 </div>
             </div>
         </div>

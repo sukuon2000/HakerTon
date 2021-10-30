@@ -65,14 +65,14 @@
     width: 100%;"alt="" /></a>
                 	<blockquote class="mb-0">
                             <p class="quote-main position-relative p-3" style="margin: auto; display: table;">
-                                <q>인생샷을 건지는 숲속같은 카페</q></p></blockquote>
+                                <q>🌳인생샷을 건지는 숲속같은 카페🌳</q></p></blockquote>
                 </div>
                 <div class="col-lg-6 w3l-features-photo-7_top-right mt-lg-0 mt-sm-5 mt-4">
                      <a href="${pageContext.request.contextPath}/select/step4"><img src="${pageContext.request.contextPath}/assets/images/디저트.jfif" class="img-responsive"  style="height: 370px;
     width: 100%;"alt="" /></a>
                 	<blockquote class="mb-0">
                             <p class="quote-main position-relative p-3" style="margin: auto; display: table;">
-                                <q>부드럽고 달콤한 디저트</q></p></blockquote>
+                                <q>부드럽고 달콤한 디저트🍰</q></p></blockquote>
                 </div>
             </div>
         </div>

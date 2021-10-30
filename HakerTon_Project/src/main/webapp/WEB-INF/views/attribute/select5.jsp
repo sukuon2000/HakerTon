@@ -65,14 +65,14 @@
     width: 100%;" alt="" /></a>
                 	<blockquote class="mb-0">
                             <p class="quote-main position-relative p-3" style="margin: auto; display: table;">
-                                <q>넓은 주차공간을 갖춘 카페</q></p></blockquote>
+                                <q>🚘넓은 주차공간을 갖춘 카페🚘</q></p></blockquote>
                 </div>
                 <div class="col-lg-6 w3l-features-photo-7_top-right mt-lg-0 mt-sm-5 mt-4">
                      <a href="${pageContext.request.contextPath}/select/step6"><img src="${pageContext.request.contextPath}/assets/images/친절.jpg" class="img-responsive" style="height: 370px;
     width: 100%;"alt="" /></a>
                 	<blockquote class="mb-0">
                             <p class="quote-main position-relative p-3" style="margin: auto; display: table;">
-                                <q>친절한 카페로 기분 좋은 시간을 보낼 수 있는 카페</q></p></blockquote>
+                                <q>친절한 서비스, 행복한 시간😍</q></p></blockquote>
                 </div>
             </div>
         </div>

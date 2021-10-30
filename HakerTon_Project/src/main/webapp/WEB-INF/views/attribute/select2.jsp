@@ -65,14 +65,14 @@
     width: 100%;"alt="" /></a>
                     <blockquote class="mb-0">
                             <p class="quote-main position-relative p-3" style="margin: auto; display: table;">
-                                <q>빵 덕후라면 여기는 꼭 !</q></p></blockquote>
+                                <q>🥐빵 덕후라면 여기는 꼭 <span style="color:red;">❣</span></q></p></blockquote>
                 </div>
                 <div class="col-lg-6 w3l-features-photo-7_top-right mt-lg-0 mt-sm-5 mt-4">
                      <a href="${pageContext.request.contextPath}/select/step3"><img src="${pageContext.request.contextPath}/assets/images/커피.jfif" class="img-responsive"  style="height: -webkit-fill-available;
     width: 100%;"alt="" /></a>
                 	<blockquote class="mb-0">
                             <p class="quote-main position-relative p-3" style="margin: auto; display: table;">
-                                <q>직접 로스팅한 커피로 향긋한 공간</q></p></blockquote>
+                                <q>직접 로스팅한 커피로 향긋한 공간☕☕</q></p></blockquote>
                 </div>
             </div>
         </div>
