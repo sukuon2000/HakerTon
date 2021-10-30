@@ -16,34 +16,6 @@
     <!-- //google-fonts -->
     <!-- Template CSS Style link -->
     <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/style-liberty.css">
-    <style>
-    
-        /*search box css start here*/
-    .search-sec{
-        background: #1A4668;padding: 2rem;
-    }
-    .search-slt{
-        display: block;
-        width: 100%;
-        font-size: 0.875rem;
-        line-height: 1.5;
-        color: #55595c;
-        background-color: #fff;
-        background-image: none;
-        border: 1px solid #ccc;
-        height: calc(3rem + 2px) !important;
-        border-radius:0;
-    }
-    .wrn-btn{
-        width: 100%;
-        font-size: 16px;
-        font-weight: 400;
-        text-transform: capitalize;
-         height: calc(3rem + 2px) !important;
-         border-radius:0;
-    }
-    
-    </style>
 </head>
 
 <body>
@@ -80,95 +52,24 @@
     </header>
     <!--//header-->
 
-    <!-- banner section -->
-    <section class="w3l-main-slider" id="home">
-        <div class="banner-content">
-            <div id="demo-1"
-                data-zs-src='["assets/images/main_slide.jpg"]'
-                data-zs-overlay="dots">
-                <div class="demo-inner-content">
-                    <div class="container">
-                        <div class="banner-infhny">
-                            <section>
-                                <div id="Text8">
-                                    <h1>
-                                        <span>당</span>
-                                        <span>신</span>
-                                        <span>의</span>
-                                        <span> </span>
-                                        <span>선</span>
-                                        <span>호</span>
-                                        <span>도</span>
-                                        <span>를</span>
-                                        <span> </span>
-                                        <span>선</span>
-                                        <span>택</span>
-                                        <span>!</span>
-                                    </h1>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="container">
-                            <form action="#" method="post" novalidate="novalidate">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="row">
-                                            <div class="col-lg-4 col-md-4 col-sm-12 p-0">
-                                                <select class="form-control search-slt" id="exampleFormControlSelect1">
-                                                    <option>Select Pickup City</option>
-                                                    <option>Example one</option>
-                                                    <option>Example one</option>
-                                                    <option>Example one</option>
-                                                    <option>Example one</option>
-                                                    <option>Example one</option>
-                                                    <option>Example one</option>
-                                                </select> 
-                                            </div>
-                                             <div class="col-lg-4 col-md-4 col-sm-12 p-0">
-                                                <select class="form-control search-slt" id="exampleFormControlSelect1">
-                                                    <option>Select Drop City</option>
-                                                    <option>Example one</option>
-                                                    <option>Example one</option>
-                                                    <option>Example one</option>
-                                                    <option>Example one</option>
-                                                    <option>Example one</option>
-                                                    <option>Example one</option>
-                                                </select>
-                                            </div>
-                                              <div class="col-lg-4 col-md-4 col-sm-12 p-0">
-                                                <select class="form-control search-slt" id="exampleFormControlSelect1">
-                                                    <option>Select Vehicle</option>
-                                                    <option>Example one</option>
-                                                    <option>Example one</option>
-                                                    <option>Example one</option>
-                                                    <option>Example one</option>
-                                                    <option>Example one</option>
-                                                    <option>Example one</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row mt-3">
-                                    <div class="col-lg-12">
-                                        <div class="row">
-                                            <div class="col-lg-6 col-md-6 col-sm-12 p-0">
-                                                <button type="button" class="btn btn-primary wrn-btn">결과 바로보기</button>
-                                            </div>
-                                            <div class="col-lg-6 col-md-6 col-sm-12 p-0">
-                                                <button type="button" class="btn btn-warning wrn-btn" onclick="location.href='${pageContext.request.contextPath}/select/step1'">상세 테스트 시작</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
+
+    <!-- about section -->
+    <section class="w3l-features-photo-7 py-5">
+        <div class="container py-md-5 py-4">
+            <div class="waviy">
+                <span>더 마음에 드는 사진을 선택해 주세요!</span>
+            </div>
+            <div class="row w3l-features-photo-7_top align-items-center mt-5">
+                <div class="col-lg-6 w3l-features-photo-7_top-right mt-lg-0 mt-sm-5 mt-4">
+                    <a href="${pageContext.request.contextPath}/select/step8"><img src="${pageContext.request.contextPath}/assets/images/blog1.jpg" class="img-responsive" alt="" /></a>
+                </div>
+                <div class="col-lg-6 w3l-features-photo-7_top-right mt-lg-0 mt-sm-5 mt-4">
+                     <a href="${pageContext.request.contextPath}/select/step8"><img src="${pageContext.request.contextPath}/assets/images/blog2.jpg" class="img-responsive" alt="" /></a>
                 </div>
             </div>
         </div>
     </section>
-    <!-- //banner section -->
+    <!-- //about section -->
 
     <!-- footer -->
     <section class="w3l-footer-29-main">
@@ -189,19 +90,9 @@
     </section>
     <!-- //footer -->
 
-
-    <!-- Js scripts -->
-
-
     <!-- common jquery plugin -->
     <script src="assets/js/jquery-3.3.1.min.js"></script>
     <!-- //common jquery plugin -->
-
-    <!-- slider-js -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/modernizr-2.6.2.min.js"></script>
-    <script src="assets/js/jquery.zoomslider.min.js"></script>
-    <!-- //slider-js -->
 
     <!-- owl carousel -->
     <script src="assets/js/owl.carousel.js"></script>
@@ -232,6 +123,10 @@
         })
     </script>
     <!-- //script for tesimonials carousel slider -->
+
+    <!-- counter for stats -->
+    <script src="assets/js/counter.js"></script>
+    <!-- //counter for stats -->
 
     <!-- theme switch js (light and dark)-->
     <script src="assets/js/theme-change.js"></script>
@@ -264,9 +159,9 @@
         }
 
         $(document).ready(function () {
-            // Now to start autoTyping just call the autoType function with the
+            // Now to start autoTyping just call the autoType function with the 
             // class of outer div
-            // The second paramter is the speed between each letter is typed.
+            // The second paramter is the speed between each letter is typed.   
             autoType(".type-js", 200);
         });
     </script>

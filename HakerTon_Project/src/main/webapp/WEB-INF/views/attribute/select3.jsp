@@ -15,7 +15,7 @@
     <link href="//fonts.googleapis.com/css2?family=Sail&display=swap" rel="stylesheet">
     <!-- //google-fonts -->
     <!-- Template CSS Style link -->
-    <link rel="stylesheet" href="assets/css/style-liberty.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/style-liberty.css">
 </head>
 
 <body>
@@ -61,10 +61,10 @@
             </div>
             <div class="row w3l-features-photo-7_top align-items-center mt-5">
                 <div class="col-lg-6 w3l-features-photo-7_top-right mt-lg-0 mt-sm-5 mt-4">
-                    <a href=""><img src="assets/images/blog1.jpg" class="img-responsive" alt="" /></a>
+                    <a href="${pageContext.request.contextPath}/select/step4"><img src="${pageContext.request.contextPath}/assets/images/blog1.jpg" class="img-responsive" alt="" /></a>
                 </div>
                 <div class="col-lg-6 w3l-features-photo-7_top-right mt-lg-0 mt-sm-5 mt-4">
-                     <a href=""><img src="assets/images/blog2.jpg" class="img-responsive" alt="" /></a>
+                     <a href="${pageContext.request.contextPath}/select/step4"><img src="${pageContext.request.contextPath}/assets/images/blog2.jpg" class="img-responsive" alt="" /></a>
                 </div>
             </div>
         </div>
