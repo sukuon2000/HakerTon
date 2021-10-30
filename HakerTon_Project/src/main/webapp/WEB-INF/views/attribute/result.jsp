@@ -64,32 +64,33 @@
                 </div>
                 <br><br>
                 <div class="row top-cont-grid align-items-center">
+                <c:forEach var="cafeVO1" items="${cafeList1}">          
                     <div class="col-lg-3 right-img sec-img-ab mb-5">
-                        <a href="#">
-                            <h4 class="mt-3" style="color:#fff">카페 산토리니</h4>
+                        <a href="http://naver.com" target="_blank">
+                            <h4 class="mt-3" style="color:#fff">${cafeVO1.cafeName}</h4>
                             <img src="${pageContext.request.contextPath}/assets/images/event1.jpg" alt="" class="img-responsive img-fluid" style="margin-top:1.5rem" />
                         </a>
                     </div>
-                    
-                    <div class="col-lg-1">
-
-                    </div>
+                    <div class="col-lg-1"></div>
+                </c:forEach>
+                <c:forEach var="cafeVO2" items="${cafeList2}">          
                     <div class="col-lg-3 right-img sec-img-ab mb-5">
-                        <a href="#">
-                            <h4 class="mt-3" style="color:#fff">카페 산토리니</h4>
+                        <a href="http://naver.com" target="_blank">
+                            <h4 class="mt-3" style="color:#fff">${cafeVO2.cafeName}</h4>
                             <img src="${pageContext.request.contextPath}/assets/images/event1.jpg" alt="" class="img-responsive img-fluid" style="margin-top:1.5rem" />
                         </a>
                     </div>
-                    <div class="col-lg-1">
-
-                    </div>
+                    <div class="col-lg-1"></div>
+                </c:forEach>
+                <c:forEach var="cafeVO3" items="${cafeList3}">          
                     <div class="col-lg-3 right-img sec-img-ab mb-5">
-                        <a href="#">
-                            <h4 class="mt-3" style="color:#fff">카페 산토리니</h4>
+                        <a href="${cafeVO3.url}" target="_blank">
+                            <h4 class="mt-3" style="color:#fff">${cafeVO3.cafeName}</h4>
                             <img src="${pageContext.request.contextPath}/assets/images/event1.jpg" alt="" class="img-responsive img-fluid" style="margin-top:1.5rem" />
                         </a>
                     </div>
-                </div>
+                    <div class="col-lg-1"></div>
+                </c:forEach>
                 <div>
                     <div class="col-lg-4"></div>
                     <a href="#" class="btn btn-style mt-4 col-lg-4" style="text-align: center;">분석결과를 데이터 베이스에 저장하시겠습니까?</a>

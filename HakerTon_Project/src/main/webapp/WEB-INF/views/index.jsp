@@ -258,8 +258,7 @@
 									<div class="col-lg-12">
 										<div class="row">
 											<div class="col-lg-6 col-md-6 col-sm-12 p-0">
-												<button type="submit" class="btn btn-primary wrn-btn">결과
-													바로보기</button>
+												<button type="submit" class="btn btn-primary wrn-btn">결과	바로보기</button>
 											</div>
 											<div class="col-lg-6 col-md-6 col-sm-12 p-0">
 												<button type="button" class="btn btn-warning wrn-btn"
