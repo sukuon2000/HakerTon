@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("mainSelect")
 public class MainSelectController {
-	@RequestMapping("result")
+	@RequestMapping("SelectInputValue")
 	public String SelectInputValue(Model model, String best1, String best2, String best3) {
 		InputVO inputVO = new InputVO();
 		inputVO.setBest1(best1);
