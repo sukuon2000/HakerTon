@@ -24,7 +24,7 @@
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg stroke">
                 <h1>
-                    <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <a class="navbar-brand d-flex align-items-center" href="${pageContext.request.contextPath}../index">
                         Roast Stars</a>
                 </h1>
                 <!-- if logo is image enable this
@@ -57,14 +57,22 @@
     <section class="w3l-features-photo-7 py-5">
         <div class="container py-md-5 py-4">
             <div class="waviy">
-                <span>더 마음에 드는 사진을 선택해 주세요!</span>
+                <span>더 마음에 드는 사진을 선택해 주세요!<span>
             </div>
             <div class="row w3l-features-photo-7_top align-items-center mt-5">
                 <div class="col-lg-6 w3l-features-photo-7_top-right mt-lg-0 mt-sm-5 mt-4">
-                    <a href="${pageContext.request.contextPath}/select/step6"><img src="${pageContext.request.contextPath}/assets/images/blog1.jpg" class="img-responsive" alt="" /></a>
+                    <a href="${pageContext.request.contextPath}/select/step6"><img src="${pageContext.request.contextPath}/assets/images/주차.jpg" class="img-responsive"style="height: 370px;
+    width: 100%;" alt="" /></a>
+                	<blockquote class="mb-0">
+                            <p class="quote-main position-relative p-3" style="margin: auto; display: table;">
+                                <q>넓은 주차공간을 갖춘 카페</q></p></blockquote>
                 </div>
                 <div class="col-lg-6 w3l-features-photo-7_top-right mt-lg-0 mt-sm-5 mt-4">
-                     <a href="${pageContext.request.contextPath}/select/step6"><img src="${pageContext.request.contextPath}/assets/images/blog2.jpg" class="img-responsive" alt="" /></a>
+                     <a href="${pageContext.request.contextPath}/select/step6"><img src="${pageContext.request.contextPath}/assets/images/친절.jpg" class="img-responsive" style="height: 370px;
+    width: 100%;"alt="" /></a>
+                	<blockquote class="mb-0">
+                            <p class="quote-main position-relative p-3" style="margin: auto; display: table;">
+                                <q>친절한 카페로 기분 좋은 시간을 보낼 수 있는 카페</q></p></blockquote>
                 </div>
             </div>
         </div>

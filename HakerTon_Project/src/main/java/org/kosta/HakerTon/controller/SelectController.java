@@ -42,18 +42,5 @@ public class SelectController {
 		return "attribute/select7";
 	}
 
-	@RequestMapping("step8")
-	public String selectStep8() {
-		return "attribute/select8";
-	}
-
-	@RequestMapping("step9")
-	public String selectStep9() {
-		return "attribute/select9";
-	}
-
-	@RequestMapping("step10")
-	public String selectStep10() {
-		return "attribute/select10";
-	}
+	
 }

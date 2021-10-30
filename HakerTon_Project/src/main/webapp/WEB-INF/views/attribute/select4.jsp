@@ -24,7 +24,7 @@
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg stroke">
                 <h1>
-                    <a class="navbar-brand d-flex align-items-center" href="index.html">
+                     <a class="navbar-brand d-flex align-items-center" href="${pageContext.request.contextPath}../index">
                         Roast Stars</a>
                 </h1>
                 <!-- if logo is image enable this
@@ -61,10 +61,18 @@
             </div>
             <div class="row w3l-features-photo-7_top align-items-center mt-5">
                 <div class="col-lg-6 w3l-features-photo-7_top-right mt-lg-0 mt-sm-5 mt-4">
-                    <a href="${pageContext.request.contextPath}/select/step5"><img src="${pageContext.request.contextPath}/assets/images/blog1.jpg" class="img-responsive" alt="" /></a>
+                    <a href="${pageContext.request.contextPath}/select/step5"><img src="${pageContext.request.contextPath}/assets/images/음료.png" style="height: 370px;
+    width: 100%;"class="img-responsive" alt="" /></a>
+                	<blockquote class="mb-0">
+                            <p class="quote-main position-relative p-3" style="margin: auto; display: table;">
+                                <q>드로잉 음료로 눈과 입이 행복한 카페</q></p></blockquote>
                 </div>
                 <div class="col-lg-6 w3l-features-photo-7_top-right mt-lg-0 mt-sm-5 mt-4">
-                     <a href="${pageContext.request.contextPath}/select/step5"><img src="${pageContext.request.contextPath}/assets/images/blog2.jpg" class="img-responsive" alt="" /></a>
+                     <a href="${pageContext.request.contextPath}/select/step5"><img src="${pageContext.request.contextPath}/assets/images/대화.jpg" style="height: 370px;
+    width: 100%;"class="img-responsive" alt="" /></a>
+                	<blockquote class="mb-0">
+                            <p class="quote-main position-relative p-3" style="margin: auto; display: table;">
+                                <q>대화를 나누기 좋은 카페</q></p></blockquote>
                 </div>
             </div>
         </div>

@@ -24,7 +24,7 @@
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg stroke">
                 <h1>
-                    <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <a class="navbar-brand d-flex align-items-center" href="${pageContext.request.contextPath}../index">
                         Roast Stars</a>
                 </h1>
                 <!-- if logo is image enable this
@@ -61,10 +61,18 @@
             </div>
             <div class="row w3l-features-photo-7_top align-items-center mt-5">
                 <div class="col-lg-6 w3l-features-photo-7_top-right mt-lg-0 mt-sm-5 mt-4">
-                    <a href="${pageContext.request.contextPath}/select/step7"><img src="${pageContext.request.contextPath}/assets/images/blog1.jpg" class="img-responsive" alt="" /></a>
+                    <a href="${pageContext.request.contextPath}/select/step7"><img src="${pageContext.request.contextPath}/assets/images/특별메뉴.PNG" class="img-responsive" style="height: 370px;
+    width: 100%;"alt="" /></a>
+                	<blockquote class="mb-0">
+                            <p class="quote-main position-relative p-3" style="margin: auto; display: table;">
+                                <q>특별한 날엔 특별한 디저트</q></p></blockquote>
                 </div>
                 <div class="col-lg-6 w3l-features-photo-7_top-right mt-lg-0 mt-sm-5 mt-4">
-                     <a href="${pageContext.request.contextPath}/select/step7"><img src="${pageContext.request.contextPath}/assets/images/blog2.jpg" class="img-responsive" alt="" /></a>
+                     <a href="${pageContext.request.contextPath}/select/step7"><img src="${pageContext.request.contextPath}/assets/images/가성비.jpg" class="img-responsive" style="height: 370px;
+    width: 100%;"alt="" /></a>
+                	<blockquote class="mb-0">
+                            <p class="quote-main position-relative p-3" style="margin: auto; display: table;">
+                                <q>이 구역의 가성비는 너다!</q></p></blockquote>
                 </div>
             </div>
         </div>

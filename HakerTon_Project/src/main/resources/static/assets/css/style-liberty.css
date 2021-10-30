@@ -17439,7 +17439,7 @@ p.quote-main {
   font-size: 20px;
 }
 
-p.quote-main q:before {
+p.quote-main q:before, p.quote-main q:after {
   font-size: 80px;
   color: var(--primary-color);
   font-weight: 600;

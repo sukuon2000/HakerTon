@@ -3,7 +3,11 @@
     <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!doctype html>
 <html lang="ko">
-
+<style>
+.imagesize{
+	height:380px !important;
+}
+</style>
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -24,7 +28,7 @@
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg stroke">
                 <h1>
-                    <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <a class="navbar-brand d-flex align-items-center" href="${pageContext.request.contextPath}../index">
                         Roast Stars</a>
                 </h1>
                 <!-- if logo is image enable this
@@ -59,12 +63,19 @@
             <div class="waviy">
                 <span>더 마음에 드는 사진을 선택해 주세요!</span>
             </div>
-            <div class="row w3l-features-photo-7_top align-items-center mt-5">
-                <div class="col-lg-6 w3l-features-photo-7_top-right mt-lg-0 mt-sm-5 mt-4">
-                    <a href="${pageContext.request.contextPath}/select/step2"><img src="${pageContext.request.contextPath}/assets/images/blog1.jpg" class="img-responsive" alt="" /></a>
+            <div class="row w3l-features-photo-7_top align-items-center mt-5 ">
+                <div class="col-lg-6 w3l-features-photo-7_top-right mt-lg-0 mt-sm-5 mt-4 imagesize">
+                    <a href="${pageContext.request.contextPath}/select/step2"><img src="${pageContext.request.contextPath}/assets/images/뷰.jpeg" class="img-responsive" alt="" /></a>
+                	<blockquote class="mb-0">
+                            <p class="quote-main position-relative p-3" style="margin: auto; display: table;">
+                                <q>가슴이 뻥 ~ 뷰 맛집</q></p></blockquote>
                 </div>
-                <div class="col-lg-6 w3l-features-photo-7_top-right mt-lg-0 mt-sm-5 mt-4">
-                     <a href="${pageContext.request.contextPath}/select/step2"><img src="${pageContext.request.contextPath}/assets/images/blog2.jpg" class="img-responsive" alt="" /></a>
+                <div class="col-lg-6 w3l-features-photo-7_top-right mt-lg-0 mt-sm-5 mt-4 imagesize">
+                     <a href="${pageContext.request.contextPath}/select/step2"><img src="${pageContext.request.contextPath}/assets/images/인테리어.jpeg" class="img-responsive" style="height: -webkit-fill-available;
+    width: 100%;"alt="" />
+    <blockquote class="mb-0">
+                            <p class="quote-main position-relative p-3" style="margin: auto; display: table;">
+                                <q>깔끔한 감성카페</q></p></blockquote></a>
                 </div>
             </div>
         </div>
