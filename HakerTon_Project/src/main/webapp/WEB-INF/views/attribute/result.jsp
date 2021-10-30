@@ -93,7 +93,7 @@
                 </c:forEach>
                 <div>
                     <div class="col-lg-4"></div>
-                    <a href="#" class="btn btn-style mt-4 col-lg-4" style="text-align: center;">분석결과를 데이터 베이스에 저장하시겠습니까?</a>
+                    <a href="#" class="btn btn-style mt-4 col-lg-4" style="text-align: center;" onclick="javascript:confirm('저장하였습니다!')">분석결과를 데이터 베이스에 저장하시겠습니까?</a>
                     <div class="col-lg-4"></div>
                 </div>
                 <br><br>

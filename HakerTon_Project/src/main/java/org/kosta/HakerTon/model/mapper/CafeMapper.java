@@ -4,8 +4,9 @@ import java.util.ArrayList;
 
 import org.apache.ibatis.annotations.Mapper;
 import org.kosta.HakerTon.model.vo.CafeVO;
+import org.kosta.HakerTon.model.vo.InputVO;
 
 @Mapper
 public interface CafeMapper {
-	ArrayList<CafeVO> getCafeInfoList(String best1, String best2, String best3);
+   ArrayList<CafeVO> selectCafe(InputVO inputVO);
 }

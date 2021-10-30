@@ -186,7 +186,7 @@
 							</section>
 						</div>
 						<div class="container">
-							<form action="${pageContext.request.contextPath}/mainSelect/result" method="post" novalidate="novalidate">
+							<form action="${pageContext.request.contextPath}/mainSelect/SelectInputValue" method="get" novalidate="novalidate">
 								<div class="row">
 									<div class="col-lg-12">
 										<div class="row">
