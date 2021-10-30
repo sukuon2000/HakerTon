@@ -1,5 +1,4 @@
 package org.kosta.HakerTon.controller;
-
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -7,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("mainSelect")
 public class MainSelectController {
 	@RequestMapping("result")
-	public String selectStep1() {
+	public String SelectInputValue() {
 		return "attribute/result";
 	}
 }
