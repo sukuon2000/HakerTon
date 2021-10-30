@@ -192,7 +192,7 @@
 										<div class="row">
 											<div class="col-lg-4 col-md-4 col-sm-12 p-0">
 												<select class="form-control search-slt"
-													id="exampleFormControlSelect1" name="favor1"
+													id="exampleFormControlSelect1" name="best1"
 													onchange="selectFavor1()">
 													<option value="뷰가 좋아요" selected>뷰가 좋아요</option>
 													<option value="사진이 잘 나와요">사진이 잘 나와요</option>
@@ -213,7 +213,7 @@
 											</div>
 											<div class="col-lg-4 col-md-4 col-sm-12 p-0">
 												<select class="form-control search-slt"
-													id="exampleFormControlSelect2" onchange="selectFavor2()">
+													id="exampleFormControlSelect2" onchange="selectFavor2()" name="best2">
 													<option value="뷰가 좋아요">뷰가 좋아요</option>
 													<option value="사진이 잘 나와요" selected>사진이 잘 나와요</option>
 													<option value="주차하기 편해요">주차하기 편해요</option>
@@ -233,7 +233,7 @@
 											</div>
 											<div class="col-lg-4 col-md-4 col-sm-12 p-0">
 												<select class="form-control search-slt"
-													id="exampleFormControlSelect3" onchange="selectFavor3()">
+													id="exampleFormControlSelect3" onchange="selectFavor3()"  name="best3">
 													<option value="뷰가 좋아요">뷰가 좋아요</option>
 													<option value="사진이 잘 나와요">사진이 잘 나와요</option>
 													<option value="주차하기 편해요" selected>주차하기 편해요</option>
