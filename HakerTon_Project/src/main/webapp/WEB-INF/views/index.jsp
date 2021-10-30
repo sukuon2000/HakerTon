@@ -186,7 +186,7 @@
 							</section>
 						</div>
 						<div class="container">
-							<form action="#" method="post" novalidate="novalidate">
+							<form action="${pageContext.request.contextPath}/mainSelect/result" method="post" novalidate="novalidate">
 								<div class="row">
 									<div class="col-lg-12">
 										<div class="row">
@@ -258,7 +258,7 @@
 									<div class="col-lg-12">
 										<div class="row">
 											<div class="col-lg-6 col-md-6 col-sm-12 p-0">
-												<button type="button" class="btn btn-primary wrn-btn">결과
+												<button type="submit" class="btn btn-primary wrn-btn">결과
 													바로보기</button>
 											</div>
 											<div class="col-lg-6 col-md-6 col-sm-12 p-0">

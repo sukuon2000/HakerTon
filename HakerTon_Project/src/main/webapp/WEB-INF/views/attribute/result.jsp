@@ -1,6 +1,8 @@
-
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!doctype html>
-<html lang="en">
+<html lang="ko">
 
 
 
@@ -15,7 +17,7 @@
     <link href="//fonts.googleapis.com/css2?family=Sail&display=swap" rel="stylesheet">
     <!-- //google-fonts -->
     <!-- Template CSS Style link -->
-    <link rel="stylesheet" href="assets/css/style-liberty.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/style-liberty.css">
 </head>
 
 <body>
@@ -65,7 +67,7 @@
                     <div class="col-lg-3 right-img sec-img-ab mb-5">
                         <a href="#">
                             <h4 class="mt-3" style="color:#fff">카페 산토리니</h4>
-                            <img src="assets/images/event1.jpg" alt="" class="img-responsive img-fluid" style="margin-top:1.5rem" />
+                            <img src="${pageContext.request.contextPath}/assets/images/event1.jpg" alt="" class="img-responsive img-fluid" style="margin-top:1.5rem" />
                         </a>
                     </div>
                     
@@ -75,7 +77,7 @@
                     <div class="col-lg-3 right-img sec-img-ab mb-5">
                         <a href="#">
                             <h4 class="mt-3" style="color:#fff">카페 산토리니</h4>
-                            <img src="assets/images/event1.jpg" alt="" class="img-responsive img-fluid" style="margin-top:1.5rem" />
+                            <img src="${pageContext.request.contextPath}/assets/images/event1.jpg" alt="" class="img-responsive img-fluid" style="margin-top:1.5rem" />
                         </a>
                     </div>
                     <div class="col-lg-1">
@@ -84,7 +86,7 @@
                     <div class="col-lg-3 right-img sec-img-ab mb-5">
                         <a href="#">
                             <h4 class="mt-3" style="color:#fff">카페 산토리니</h4>
-                            <img src="assets/images/event1.jpg" alt="" class="img-responsive img-fluid" style="margin-top:1.5rem" />
+                            <img src="${pageContext.request.contextPath}/assets/images/event1.jpg" alt="" class="img-responsive img-fluid" style="margin-top:1.5rem" />
                         </a>
                     </div>
                 </div>
