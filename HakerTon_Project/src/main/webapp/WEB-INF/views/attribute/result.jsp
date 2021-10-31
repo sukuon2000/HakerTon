@@ -12,11 +12,20 @@
 * {
 	font-family: 'Gamja Flower', cursive;
 }
+<<<<<<< HEAD
+.imagesize {
+	height: 380px !important;
+}
+</style>
+
+
+=======
 
 .imagesize {
 	height: 380px !important;
 }
 </style>
+>>>>>>> branch 'main' of https://github.com/sukuon2000/HakerTon.git
 <head>
 <!-- Required meta tags -->
 <meta charset="utf-8">
@@ -68,6 +77,57 @@
 	</header>
 	<!--//header-->
 
+<<<<<<< HEAD
+    <!-- events section -->
+    <section class="w3l-text-6">
+        <div class="text-6-mian bottom-space py-5">
+            <div class="container py-md-5 py-4">
+                <div class="waviy text-center mb-sm-5 mb-4 pb-lg-4">
+                    <span>당신의 취향 분석 결과를 알려드려요!</span>
+                    
+                </div>
+                <br><br>
+                <div class="row top-cont-grid align-items-center">
+                <c:forEach var="cafeVO1" items="${cafeList1}">          
+                    <div class="col-lg-3 right-img sec-img-ab mb-5">
+                        <a href="http://naver.com" target="_blank">
+                            <h4 class="mt-3" style="color:#fff">${cafeVO1.cafeName}</h4>
+                            <img src="${pageContext.request.contextPath}/assets/images/event1.jpg" alt="" class="img-responsive img-fluid" style="margin-top:1.5rem" />
+                        </a>
+                    </div>
+                    <div class="col-lg-1"></div>
+                </c:forEach>
+                <c:forEach var="cafeVO2" items="${cafeList2}">          
+                    <div class="col-lg-3 right-img sec-img-ab mb-5">
+                        <a href="http://naver.com" target="_blank">
+                            <h4 class="mt-3" style="color:#fff">${cafeVO2.cafeName}</h4>
+                            <img src="${pageContext.request.contextPath}/assets/images/event1.jpg" alt="" class="img-responsive img-fluid" style="margin-top:1.5rem" />
+                        </a>
+                    </div>
+                    <div class="col-lg-1"></div>
+                </c:forEach>
+                <c:forEach var="cafeVO3" items="${cafeList3}">          
+                    <div class="col-lg-3 right-img sec-img-ab mb-5">
+                        <a href="${cafeVO3.url}" target="_blank">
+                            <h4 class="mt-3" style="color:#fff">${cafeVO3.cafeName}</h4>
+                            <img src="${pageContext.request.contextPath}/assets/images/event1.jpg" alt="" class="img-responsive img-fluid" style="margin-top:1.5rem" />
+                        </a>
+                    </div>
+                    <div class="col-lg-1"></div>
+                </c:forEach>
+                
+                <div>
+                    <div class="col-lg-4"></div>
+                    <a href="#" class="btn btn-style mt-4 col-lg-4" style="text-align: center;" onclick="javascript:confirm('저장하였습니다!')">분석결과를 데이터 베이스에 저장하시겠습니까?</a>
+                    <div class="col-lg-4"></div>
+                </div>
+                <br><br>
+            </div>
+        </div>
+        
+    </section>
+    <!-- image with text section -->
+=======
 	<!-- events section -->
 	<section class="w3l-text-6">
 		<div class="text-6-mian bottom-space py-5">
@@ -126,6 +186,7 @@
 				<br>
 			</div>
 		</div>
+>>>>>>> branch 'main' of https://github.com/sukuon2000/HakerTon.git
 
 	</section>
 	<!-- image with text section -->
