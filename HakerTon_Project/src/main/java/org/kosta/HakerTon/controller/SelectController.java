@@ -11,6 +11,7 @@ public class SelectController {
 	
 	@RequestMapping("step1")
 	public String selectStep1(Model model, InputVO inputVO) {
+		System.out.println(inputVO);
 		return "attribute/select1";
 	}
 

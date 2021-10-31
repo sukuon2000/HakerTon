@@ -129,8 +129,9 @@
                 }
         }
         function setValue(){
-        	
-        	location.href= ${pageContext.request.contextPath}/select/step1;
+        	alert("ok");
+        	return  'select/step1';
+        	return false;
         }
 
 
@@ -265,8 +266,7 @@
 												<button type="submit" class="btn btn-primary wrn-btn">결과	바로보기</button>
 											</div>
 											<div class="col-lg-6 col-md-6 col-sm-12 p-0">
-												<button type="button" class="btn btn-warning wrn-btn"
-													onclick="location.href='${pageContext.request.contextPath}/select/step1'">상세
+												<button type="submit" class="btn btn-warning wrn-btn" onclick="return setValue();">상세
 													테스트 시작</button>
 											</div>
 										</div>

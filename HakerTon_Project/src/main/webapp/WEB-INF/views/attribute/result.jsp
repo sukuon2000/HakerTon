@@ -12,20 +12,11 @@
 * {
 	font-family: 'Gamja Flower', cursive;
 }
-<<<<<<< HEAD
 .imagesize {
 	height: 380px !important;
 }
 </style>
 
-
-=======
-
-.imagesize {
-	height: 380px !important;
-}
-</style>
->>>>>>> branch 'main' of https://github.com/sukuon2000/HakerTon.git
 <head>
 <!-- Required meta tags -->
 <meta charset="utf-8">
@@ -76,8 +67,6 @@
 		</div>
 	</header>
 	<!--//header-->
-
-<<<<<<< HEAD
     <!-- events section -->
     <section class="w3l-text-6">
         <div class="text-6-mian bottom-space py-5">
@@ -92,7 +81,7 @@
                     <div class="col-lg-3 right-img sec-img-ab mb-5">
                         <a href="http://naver.com" target="_blank">
                             <h4 class="mt-3" style="color:#fff">${cafeVO1.cafeName}</h4>
-                            <img src="${pageContext.request.contextPath}/assets/images/event1.jpg" alt="" class="img-responsive img-fluid" style="margin-top:1.5rem" />
+                            <img src="${pageContext.request.contextPath}/assets/images/${cafeVO1.imgPath}" alt="" class="img-responsive img-fluid" style="margin-top:1.5rem" />
                         </a>
                     </div>
                     <div class="col-lg-1"></div>
@@ -127,7 +116,7 @@
         
     </section>
     <!-- image with text section -->
-=======
+
 	<!-- events section -->
 	<section class="w3l-text-6">
 		<div class="text-6-mian bottom-space py-5">
@@ -186,7 +175,6 @@
 				<br>
 			</div>
 		</div>
->>>>>>> branch 'main' of https://github.com/sukuon2000/HakerTon.git
 
 	</section>
 	<!-- image with text section -->
