@@ -3,7 +3,19 @@
     <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!doctype html>
 <html lang="ko">
-
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link
+	href="https://fonts.googleapis.com/css2?family=Gamja+Flower&
+								display=swap"
+	rel="stylesheet">
+<style>
+* {
+	font-family: 'Gamja Flower', cursive;
+}
+.imagesize {
+	height: 380px !important;
+}
+</style>
 
 
 <head>
