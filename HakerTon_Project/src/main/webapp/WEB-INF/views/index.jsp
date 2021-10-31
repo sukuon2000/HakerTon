@@ -128,6 +128,10 @@
                     alert( "어떤 값인지 파악이 되지 않습니다." );
                 }
         }
+        function setValue(){
+        	
+        	location.href= ${pageContext.request.contextPath}/select/step1;
+        }
 
 
 
